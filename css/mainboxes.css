@@ -9,7 +9,7 @@ html, body {
 }
 
 body {
-    background-image: linear-gradient(to left, rgba(255, 0, 149, 0.2), rgba(0, 247, 255, 0.2)), url(../dark.png);
+    background-image: linear-gradient(to left, rgba(255, 0, 149, 0.2), rgba(0, 247, 255, 0.2)), url(https://pic1.imgdb.cn/item/6932d882d1e741a32bf48936.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -28,7 +28,7 @@ body {
 .meBox {
     float: left;
     width: 20rem;
-    height: 25rem;
+    height: 30rem;
     background-color: white;
     margin-top: 100px;
     border-radius: 2%;
@@ -38,7 +38,7 @@ body {
 
 .meBox:hover {
     width: 21rem;
-    height: 26rem;
+    height: 31rem;
     margin: 95px 0 0 -5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
 }
@@ -46,7 +46,7 @@ body {
 .headPhoto {
     width: 8rem;
     height: 8rem;
-    background: url(https://cravatar.cn/avatar/c93657813a16b81743e545ba9048132d?size=260&default=404) no-repeat;
+    background: url(https://pic1.imgdb.cn/item/66a53bb0d9c307b7e9081739.jpg) no-repeat;
     background-size: cover;
     border-radius: 50%;
     position: relative;
@@ -141,6 +141,9 @@ body {
 
 .meBox-Button {
     width: 100%;
+    margin-top: -40px;
+    position: relative;
+    z-index: 1;
 }
 
 .meBox-Button a {
@@ -182,8 +185,8 @@ body {
     font-size: 14px;
     color: rgb(88, 89, 92);
     position: relative;
-    top: 0;
-    left: 0;
+    top: 90px;
+    left: 230px;
 }
 
 .cmd:hover {
@@ -259,8 +262,8 @@ body {
 
 .cmd2 {
     position: relative;
-    top: -280px;
-    left: 100px;
+    top: -160px;
+    left: 300px;
 }
 
 .cmd2 .cmdText .ul {
